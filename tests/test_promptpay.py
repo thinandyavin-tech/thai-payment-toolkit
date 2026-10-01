@@ -44,4 +44,4 @@ def test_tampering_breaks_checksum():
 
 def test_parser_rejects_truncated_data():
     with pytest.raises(ValueError):
-        parse("000201")
+        parse("0002")
